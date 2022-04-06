@@ -4,6 +4,7 @@ tap "homebrew/core"
 brew "coreutils"
 brew "mas"
 brew "zsh"
+cask "plex"
 cask "plexamp"
 mas "Bitwarden", id: 1352778147
 mas "Clockify Desktop", id: 1364502317
