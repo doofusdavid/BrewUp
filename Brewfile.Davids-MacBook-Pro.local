@@ -5,3 +5,14 @@ brew "coreutils"
 brew "mas"
 brew "zsh"
 cask "plexamp"
+mas "Bitwarden", id: 1352778147
+mas "Clockify Desktop", id: 1364502317
+mas "Day One", id: 1055511498
+mas "Fantastical", id: 975937182
+mas "Horo", id: 1437226581
+mas "LastPass", id: 926036361
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Scrivener", id: 1310686187
+mas "SiteSucker", id: 442168834
+mas "Spark", id: 1176895641
