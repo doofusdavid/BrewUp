@@ -2,14 +2,21 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 brew "coreutils"
+brew "asdf"
 brew "mas"
+brew "openssl@3"
+brew "sqlite"
+brew "xz"
+brew "zlib"
 brew "zsh"
 cask "plex"
 cask "plexamp"
+cask "signal"
+cask "timemachineeditor"
 mas "Bitwarden", id: 1352778147
 mas "Clockify Desktop", id: 1364502317
 mas "Day One", id: 1055511498
-mas "Fantastical", id: 975937182
+mas "Hand Mirror", id: 1502839586
 mas "Horo", id: 1437226581
 mas "LastPass", id: 926036361
 mas "Microsoft OneNote", id: 784801555
