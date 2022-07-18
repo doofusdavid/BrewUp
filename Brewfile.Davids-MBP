@@ -1,0 +1,37 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "ca-certificates"
+brew "coreutils"
+brew "asdf"
+brew "docker-compose", link: false
+brew "gnu-sed"
+brew "sqlite"
+brew "xz"
+brew "httpie"
+brew "mas"
+brew "openssl@3"
+brew "php"
+brew "tldr"
+brew "wget"
+brew "zlib"
+brew "zsh"
+cask "discord"
+cask "plex"
+cask "plexamp"
+cask "signal"
+cask "timemachineeditor"
+cask "vagrant"
+mas "Bitwarden", id: 1352778147
+mas "Civilization V: Campaign Edition", id: 439924718
+mas "Clockify Desktop", id: 1364502317
+mas "Day One", id: 1055511498
+mas "Hand Mirror", id: 1502839586
+mas "Horo", id: 1437226581
+mas "LastPass", id: 926036361
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Scrivener", id: 1310686187
+mas "Silicio", id: 933627574
+mas "SiteSucker", id: 442168834
+mas "Spark", id: 1176895641
