@@ -7,15 +7,18 @@ brew "ca-certificates"
 brew "bitwarden-cli"
 brew "xz"
 brew "coreutils"
+brew "harfbuzz"
 brew "ffmpeg"
 brew "libavif"
 brew "gd"
+brew "git"
 brew "gnu-sed"
 brew "grep"
 brew "helm"
 brew "httpie"
 brew "mas"
 brew "minikube"
+brew "qt"
 brew "mkvtoolnix"
 brew "openssl@3"
 brew "php"
@@ -46,4 +49,3 @@ mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Scrivener", id: 1310686187
 mas "SiteSucker", id: 442168834
-mas "Spark", id: 1176895641
