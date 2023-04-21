@@ -1,0 +1,29 @@
+tap "homebrew/bundle"
+brew "colima"
+brew "exa"
+brew "mas"
+brew "node"
+brew "openjdk"
+brew "zsh-autosuggestions"
+brew "zsh-completions"
+brew "zsh-syntax-highlighting"
+cask "appcleaner"
+cask "miniconda"
+cask "moom"
+cask "tunnelblick"
+mas "Bitwarden", id: 1352778147
+mas "Day One", id: 1055511498
+mas "GarageBand", id: 682658836
+mas "Hand Mirror", id: 1502839586
+mas "Home Assistant", id: 1099568401
+mas "Horo", id: 1437226581
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Microsoft To Do", id: 1274495053
+mas "Numbers", id: 409203825
+mas "Owly", id: 882812218
+mas "Pages", id: 409201541
+mas "Scrivener", id: 1310686187
+mas "SiteSucker", id: 442168834
+mas "Steam Link", id: 1246969117
