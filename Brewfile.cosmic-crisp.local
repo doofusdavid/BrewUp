@@ -1,10 +1,12 @@
 tap "homebrew/bundle"
+brew "blueutil"
 brew "qemu"
 brew "lima"
 brew "colima"
 brew "libssh2"
 brew "exa"
 brew "harfbuzz"
+brew "htop"
 brew "httpie"
 brew "mas"
 brew "node"
@@ -20,6 +22,7 @@ cask "miniconda"
 cask "monitorcontrol"
 cask "moom"
 cask "qobuz"
+cask "timemachineeditor"
 cask "tunnelblick"
 mas "Bitwarden", id: 1352778147
 mas "Day One", id: 1055511498
@@ -27,13 +30,14 @@ mas "GarageBand", id: 682658836
 mas "Hand Mirror", id: 1502839586
 mas "Home Assistant", id: 1099568401
 mas "Horo", id: 1437226581
-mas "iMovie", id: 408981434
+mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
 mas "Owly", id: 882812218
 mas "Scrivener", id: 1310686187
 mas "SiteSucker", id: 442168834
 mas "Steam Link", id: 1246969117
+mas "Structured", id: 1499198946
 vscode "anseki.vscode-color"
 vscode "BalduinLandolt.surround-with-tag"
 vscode "bbenoist.vagrant"
