@@ -5,8 +5,11 @@ brew "qemu"
 brew "lima"
 brew "colima"
 brew "libssh2"
-brew "exa"
 brew "harfbuzz"
+brew "libsndfile"
+brew "ffmpeg"
+brew "git-lfs"
+brew "go"
 brew "htop"
 brew "httpie"
 brew "mas"
@@ -38,10 +41,11 @@ mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
 mas "Owly", id: 882812218
-mas "Scrivener", id: 1310686187
+mas "Scrivener 3", id: 1310686187
 mas "SiteSucker", id: 442168834
 mas "Steam Link", id: 1246969117
 mas "Structured", id: 1499198946
+mas "World Clock", id: 956377119
 vscode "anseki.vscode-color"
 vscode "BalduinLandolt.surround-with-tag"
 vscode "bbenoist.vagrant"
@@ -54,7 +58,6 @@ vscode "ginfuru.ginfuru-vscode-jekyll-syntax"
 vscode "ginfuru.vscode-jekyll-snippets"
 vscode "GitHub.copilot"
 vscode "GitHub.copilot-chat"
-vscode "GitHub.copilot-labs"
 vscode "glenn2223.live-sass"
 vscode "jakebathman.mysql-syntax"
 vscode "jinsihou.diff-tool"
@@ -78,6 +81,7 @@ vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode-remote.remote-wsl"
 vscode "ms-vscode-remote.vscode-remote-extensionpack"
 vscode "ms-vscode.azure-account"
+vscode "ms-vscode.azurecli"
 vscode "ms-vscode.remote-explorer"
 vscode "ms-vscode.remote-server"
 vscode "ms-vscode.wordcount"
@@ -86,8 +90,8 @@ vscode "Natizyskunk.sftp"
 vscode "oderwat.indent-rainbow"
 vscode "pdconsec.vscode-print"
 vscode "rangav.vscode-thunder-client"
-vscode "rebornix.ruby"
 vscode "ritwickdey.LiveServer"
+vscode "Shopify.ruby-lsp"
 vscode "thomas-baumgaertner.vcl"
 vscode "tommorris.mako"
 vscode "wingrunr21.vscode-ruby"
