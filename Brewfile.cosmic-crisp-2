@@ -18,6 +18,7 @@ brew "httpie"
 brew "iperf"
 brew "iperf3"
 brew "mas"
+brew "mp3splt"
 brew "mutt"
 brew "node"
 brew "ollama", restart_service: true
@@ -33,6 +34,7 @@ cask "appcleaner"
 cask "backuploupe"
 cask "handbrake"
 cask "keka"
+cask "keycastr"
 cask "maccy"
 cask "miniconda"
 cask "monitorcontrol"
@@ -40,6 +42,7 @@ cask "moom"
 cask "multipass"
 cask "notion"
 cask "qobuz"
+cask "slack"
 cask "timemachineeditor"
 cask "tunnelblick"
 mas "Bitwarden", id: 1352778147
@@ -52,6 +55,8 @@ mas "Horo", id: 1437226581
 mas "iMovie", id: 408981434
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
+mas "Muteem", id: 6463294724
+mas "NotePlan", id: 1505432629
 mas "Owly", id: 882812218
 mas "Scrivener 3", id: 1310686187
 mas "SiteSucker", id: 442168834
@@ -80,6 +85,10 @@ vscode "mgmcdermott.vscode-language-babel"
 vscode "mrmlnc.vscode-apache"
 vscode "mrorz.language-gettext"
 vscode "ms-azuretools.vscode-docker"
+vscode "ms-dotnettools.csdevkit"
+vscode "ms-dotnettools.csharp"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-dotnettools.vscodeintellicode-csharp"
 vscode "ms-python.autopep8"
 vscode "ms-python.debugpy"
 vscode "ms-python.isort"
