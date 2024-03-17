@@ -32,6 +32,7 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 cask "appcleaner"
 cask "backuploupe"
+cask "cyberduck"
 cask "handbrake"
 cask "keka"
 cask "keycastr"
@@ -55,7 +56,6 @@ mas "Horo", id: 1437226581
 mas "iMovie", id: 408981434
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
-mas "Muteem", id: 6463294724
 mas "NotePlan", id: 1505432629
 mas "Owly", id: 882812218
 mas "Scrivener 3", id: 1310686187
@@ -115,6 +115,7 @@ vscode "oderwat.indent-rainbow"
 vscode "pdconsec.vscode-print"
 vscode "rangav.vscode-thunder-client"
 vscode "ritwickdey.liveserver"
+vscode "shd101wyy.markdown-preview-enhanced"
 vscode "shopify.ruby-lsp"
 vscode "thomas-baumgaertner.vcl"
 vscode "tommorris.mako"
@@ -123,4 +124,5 @@ vscode "wmaurer.change-case"
 vscode "wordpresstoolbox.wordpress-toolbox"
 vscode "xdebug.php-debug"
 vscode "yy0931.save-as-root"
+vscode "yzhang.markdown-all-in-one"
 vscode "zainchen.json"
