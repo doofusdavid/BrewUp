@@ -57,6 +57,7 @@ cask "keycastr"
 cask "linearmouse"
 cask "maccy"
 cask "marta"
+cask "meetingbar"
 cask "miniconda"
 cask "monitorcontrol"
 cask "moom"
@@ -80,6 +81,7 @@ mas "iMovie", id: 408981434
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft To Do", id: 1274495053
+mas "Muteem", id: 6463294724
 mas "NotePlan", id: 1505432629
 mas "Owly", id: 882812218
 mas "Reminder Sync for Obsidian", id: 6478323460
@@ -98,8 +100,6 @@ vscode "bradlc.vscode-tailwindcss"
 vscode "dawhite.mustache"
 vscode "dbaeumer.vscode-eslint"
 vscode "editorconfig.editorconfig"
-vscode "equinusocio.vsc-material-theme"
-vscode "equinusocio.vsc-material-theme-icons"
 vscode "esbenp.prettier-vscode"
 vscode "garmin.monkey-c"
 vscode "ghisguth.monkey-c"
