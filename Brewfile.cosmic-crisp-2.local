@@ -1,10 +1,10 @@
 tap "ddev/ddev"
 tap "homebrew/bundle"
 tap "homebrew/services"
-brew "openssl@3"
 brew "harfbuzz"
 brew "jpeg-xl"
 brew "aom"
+brew "openssl@3"
 brew "autossh"
 brew "azure-cli"
 brew "baobab"
@@ -70,28 +70,6 @@ cask "slack"
 cask "timemachineeditor"
 cask "tunnelblick"
 cask "xld"
-mas "Bitwarden", id: 1352778147
-mas "Day One", id: 1055511498
-mas "Divvy", id: 413857545
-mas "GarageBand", id: 682658836
-mas "Hand Mirror", id: 1502839586
-mas "Home Assistant", id: 1099568401
-mas "Horo", id: 1437226581
-mas "iMovie", id: 408981434
-mas "Magnet", id: 441258766
-mas "Microsoft Remote Desktop", id: 1295203466
-mas "Microsoft To Do", id: 1274495053
-mas "Muteem", id: 6463294724
-mas "NotePlan", id: 1505432629
-mas "Owly", id: 882812218
-mas "Reminder Sync for Obsidian", id: 6478323460
-mas "Scrivener 3", id: 1310686187
-mas "SiteSucker", id: 442168834
-mas "Steam Link", id: 1246969117
-mas "TestFlight", id: 899247664
-mas "WhatsApp", id: 310633997
-mas "WireGuard", id: 1451685025
-mas "World Clock", id: 956377119
 vscode "andycui.vscode-log-viewer-gb2312"
 vscode "anseki.vscode-color"
 vscode "balduinlandolt.surround-with-tag"
@@ -146,7 +124,7 @@ vscode "ms-vscode.wordcount"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "natizyskunk.sftp"
 vscode "oderwat.indent-rainbow"
-vscode "openai.openai-chatgpt-adhoc"
+vscode "openai.chatgpt"
 vscode "pdconsec.vscode-print"
 vscode "qwtel.sqlite-viewer"
 vscode "rangav.vscode-thunder-client"
