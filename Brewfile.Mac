@@ -93,6 +93,7 @@ mas "WireGuard", id: 1451685025
 mas "World Clock", id: 956377119
 vscode "andycui.vscode-log-viewer-gb2312"
 vscode "anseki.vscode-color"
+vscode "astro-build.astro-vscode"
 vscode "balduinlandolt.surround-with-tag"
 vscode "bbenoist.vagrant"
 vscode "bradlc.vscode-tailwindcss"
