@@ -1,6 +1,8 @@
 tap "ddev/ddev"
+tap "hashicorp/tap"
 tap "homebrew/bundle"
 tap "homebrew/services"
+tap "zackriya-solutions/meetily"
 brew "harfbuzz"
 brew "jpeg-xl"
 brew "aom"
@@ -19,6 +21,7 @@ brew "libsndfile"
 brew "ffmpeg"
 brew "git-lfs"
 brew "go"
+brew "gollama"
 brew "graphviz"
 brew "htop"
 brew "httpie"
@@ -46,6 +49,7 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 brew "ddev/ddev/ddev"
+brew "hashicorp/tap/terraform"
 cask "appcleaner"
 cask "avidemux"
 cask "backuploupe"
@@ -70,17 +74,40 @@ cask "slack"
 cask "timemachineeditor"
 cask "tunnelblick"
 cask "xld"
+mas "Amphetamine", id: 937984704
+mas "Bitwarden", id: 1352778147
+mas "DaisyDisk", id: 411643860
+mas "Day One", id: 1055511498
+mas "Divvy", id: 413857545
+mas "GarageBand", id: 682658836
+mas "Hand Mirror", id: 1502839586
+mas "Home Assistant", id: 1099568401
+mas "Horo", id: 1437226581
+mas "iMovie", id: 408981434
+mas "Integrity", id: 513610341
+mas "Magnet", id: 441258766
+mas "Microsoft To Do", id: 1274495053
+mas "Muteem", id: 6463294724
+mas "Owly", id: 882812218
+mas "Scrivener", id: 1310686187
+mas "SiteSucker", id: 442168834
+mas "Steam Link", id: 1246969117
+mas "TestFlight", id: 899247664
+mas "WhatsApp", id: 310633997
+mas "Windows App", id: 1295203466
+mas "WireGuard", id: 1451685025
+mas "World Clock", id: 956377119
 vscode "andycui.vscode-log-viewer-gb2312"
 vscode "anseki.vscode-color"
+vscode "astro-build.astro-vscode"
 vscode "balduinlandolt.surround-with-tag"
 vscode "bbenoist.vagrant"
 vscode "bradlc.vscode-tailwindcss"
 vscode "dawhite.mustache"
 vscode "dbaeumer.vscode-eslint"
+vscode "docker.docker"
 vscode "editorconfig.editorconfig"
 vscode "esbenp.prettier-vscode"
-vscode "garmin.monkey-c"
-vscode "ghisguth.monkey-c"
 vscode "ginfuru.ginfuru-vscode-jekyll-syntax"
 vscode "ginfuru.vscode-jekyll-snippets"
 vscode "github.copilot"
@@ -90,17 +117,15 @@ vscode "glenn2223.live-sass"
 vscode "jakebathman.mysql-syntax"
 vscode "janisdd.vscode-edit-csv"
 vscode "jinsihou.diff-tool"
+vscode "jojoee.conda-cheatsheet"
 vscode "mechatroner.rainbow-csv"
 vscode "mgmcdermott.vscode-language-babel"
 vscode "mhutchie.git-graph"
 vscode "mrmlnc.vscode-apache"
 vscode "mrorz.language-gettext"
 vscode "ms-azuretools.vscode-azureresourcegroups"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
-vscode "ms-dotnettools.csdevkit"
-vscode "ms-dotnettools.csharp"
-vscode "ms-dotnettools.vscode-dotnet-runtime"
-vscode "ms-dotnettools.vscodeintellicode-csharp"
 vscode "ms-python.autopep8"
 vscode "ms-python.debugpy"
 vscode "ms-python.isort"
