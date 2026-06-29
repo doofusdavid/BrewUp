@@ -123,8 +123,6 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 # Application uninstaller
 cask "appcleaner"
-# Video editor
-cask "avidemux"
 # Alternative GUI for Time Machine
 cask "backuploupe"
 # Compact TeX distribution as alternative to the full TeX Live / MacTeX
@@ -219,6 +217,7 @@ vscode "anthropic.claude-code"
 vscode "chaojie.better-mako"
 vscode "dbaeumer.vscode-eslint"
 vscode "esbenp.prettier-vscode"
+vscode "github.vscode-pull-request-github"
 vscode "glenn2223.live-sass"
 vscode "google.gemini-cli-vscode-ide-companion"
 vscode "jakebathman.mysql-syntax"
