@@ -43,6 +43,8 @@ brew "eza"
 brew "ffmpeg"
 # New file format for still image compression
 brew "jpeg-xl"
+# GeoIP2 country/ASN lookup tool
+brew "geoip2fast"
 # GitHub command-line tool
 brew "gh"
 # Git extension for versioning large files
@@ -200,13 +202,13 @@ mas "Home Assistant", id: 1099568401
 mas "Horo", id: 1437226581
 mas "iMovie", id: 408981434
 mas "Integrity", id: 513610341
-mas "Klack", id: 6446206067
 mas "Microsoft To Do", id: 1274495053
 mas "Muteem", id: 6463294724
 mas "Owly", id: 882812218
 mas "Scrivener", id: 1310686187
 mas "SiteSucker", id: 442168834
 mas "Steam Link", id: 1246969117
+mas "Tailscale", id: 1475387142
 mas "TestFlight", id: 899247664
 mas "WhatsApp", id: 310633997
 mas "Windows App", id: 1295203466
@@ -236,9 +238,12 @@ vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode-remote.remote-wsl"
 vscode "ms-vscode-remote.vscode-remote-extensionpack"
 vscode "ms-vscode.powershell"
+vscode "ms-vscode.remote-explorer"
 vscode "ms-windows-ai-studio.windows-ai-studio"
 vscode "oderwat.indent-rainbow"
 vscode "openai.chatgpt"
@@ -251,7 +256,7 @@ vscode "yzane.markdown-pdf"
 vscode "zainchen.json"
 go "github.com/sammcj/gollama"
 go "github.com/rapidloop/rtop"
-npm "@mariozechner/pi-coding-agent"
+npm "@earendil-works/pi-coding-agent"
 npm "@playwright/cli"
 npm "agent-browser"
 npm "broken-link-checker"
@@ -259,3 +264,4 @@ npm "clawdhub"
 npm "corepack"
 npm "grunt-cli"
 npm "obsidian-to-notion"
+npm "url-to-markdown-cli-tool"
