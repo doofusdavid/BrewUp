@@ -1,26 +1,14 @@
 tap "anomalyco/tap"
-tap "ddev/ddev"
-tap "hashicorp/tap"
+tap "can1357/tap"
 tap "opencoworkai/tap", "https://github.com/OpenCoworkAI/homebrew-tap"
 tap "steipete/tap"
-tap "yakitrak/yakitrak"
-tap "zackriya-solutions/meetily"
-# OpenType text shaping engine
-brew "harfbuzz"
+tap "yakitrak/yakitrak", trusted: { formulae: ["obsidian-cli"] }
 # Codec library for encoding and decoding AV1 video streams
 brew "aom"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
-# Automatically restart SSH sessions and tunnels
-brew "autossh"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
-# Gnome disk usage analyzer
-brew "baobab"
-# Get/set bluetooth power and discoverable state
-brew "blueutil"
-# Resource monitor. C++ version and continuation of bashtop and bpytop
-brew "btop"
 # Emacs dependency management
 brew "cask"
 # Cloudflare Tunnel client (formerly Argo Tunnel)
@@ -33,10 +21,6 @@ brew "curl"
 brew "docker-compose"
 # Platform keystore credential helper for Docker
 brew "docker-credential-helper"
-# Select default apps for documents and URL schemes on macOS
-brew "duti"
-# Access and convert several ebook formats
-brew "ebook-tools"
 # Modern, maintained replacement for ls
 brew "eza"
 # Play, record, convert, and stream select audio and video codecs
@@ -49,10 +33,10 @@ brew "geoip2fast"
 brew "gh"
 # Git extension for versioning large files
 brew "git-lfs"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Go manage your Ollama models
 brew "gollama"
+# OpenType text shaping engine
+brew "harfbuzz"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
 # Client library for huggingface.co hub
@@ -61,56 +45,34 @@ brew "hf"
 brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
-# Tool to measure maximum TCP and UDP bandwidth
-brew "iperf"
-# Update of iperf: measures TCP, UDP, and SCTP bandwidth
-brew "iperf3"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Convert ebooks from epub to kepub
-brew "kepubify"
 # Lazier way to manage everything docker
 brew "lazydocker"
 # Postgres C API library
 brew "libpq"
-# C library for files containing sampled sound
-brew "libsndfile"
 # Apple Silicon Monitor Top written in Go Lang
 brew "mactop"
 # Mac App Store command-line interface
 brew "mas"
-# CLI utility that generates PDF from Markdown
-brew "md2pdf"
-# Command-line interface to split MP3 and Ogg Vorbis files
-brew "mp3splt"
-# Mongrel of mail user agents (part elm, pine, mush, mh, etc.)
-brew "mutt"
+# Deep clean and optimize your Mac
+brew "mole"
 # Open source relational database management system
 brew "mysql-client"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# RSS/Atom feed reader for text terminals
-brew "newsboat"
 # General-purpose speech recognition model
 brew "openai-whisper"
-# Development kit for the Java programming language
-brew "openjdk"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
-# General-purpose scripting language
-brew "php"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
-# Generic machine emulator and virtualizer
-brew "qemu"
 # Rsync for cloud storage
 brew "rclone"
-# Acoustic spectrum analyser
-brew "spek"
+# Utility that provides fast incremental file transfer
+brew "rsync"
 # Cross-shell prompt for astronauts
 brew "starship"
-# User interface to the TELNET protocol
-brew "telnet"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # Executes a program periodically, showing output fullscreen
@@ -123,12 +85,22 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode", trusted: true
+# Coding agent with the IDE wired in
+brew "can1357/tap/omp", trusted: true
+# Send and read iMessage / SMS from the terminal
+brew "steipete/tap/imsg", trusted: true
+# Fast CLI for Apple Reminders
+brew "steipete/tap/remindctl", trusted: true
 # Application uninstaller
 cask "appcleaner"
 # Alternative GUI for Time Machine
 cask "backuploupe"
 # Compact TeX distribution as alternative to the full TeX Live / MacTeX
 cask "basictex"
+# Configuration manager for AI coding agents
+cask "cc-switch"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # Brings the power of Copilot coding agent directly to your terminal
@@ -158,8 +130,6 @@ cask "maccy"
 cask "markedit"
 # Extensible two-pane file manager
 cask "marta"
-# Shows the next meeting in the menu bar
-cask "meetingbar"
 # Minimal installer for conda
 cask "miniconda"
 # Tool to control external monitor brightness & volume
@@ -171,7 +141,7 @@ cask "multipass"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Desktop AI agent app with sandboxed environment
-cask "opencoworkai/tap/open-cowork"
+cask "opencoworkai/tap/open-cowork", trusted: true
 # AI coding agent desktop client
 cask "opencode-desktop"
 # Geographic Information System
@@ -190,6 +160,8 @@ cask "thonny"
 cask "timemachineeditor"
 # Free and open-source OpenVPN client
 cask "tunnelblick"
+# Menu bar toolkit with keep-awake, system monitor and volume mixer
+cask "vorssaint"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
@@ -209,14 +181,16 @@ mas "Scrivener", id: 1310686187
 mas "SiteSucker", id: 442168834
 mas "Steam Link", id: 1246969117
 mas "Tailscale", id: 1475387142
+mas "Telegram", id: 747648890
 mas "TestFlight", id: 899247664
 mas "WhatsApp", id: 310633997
 mas "Windows App", id: 1295203466
-mas "WireGuard", id: 1451685025
 mas "World Clock", id: 956377119
 mas "Xcode", id: 497799835
 vscode "anthropic.claude-code"
+vscode "astro-build.astro-vscode"
 vscode "chaojie.better-mako"
+vscode "continue.continue"
 vscode "dbaeumer.vscode-eslint"
 vscode "esbenp.prettier-vscode"
 vscode "github.vscode-pull-request-github"
@@ -248,14 +222,14 @@ vscode "ms-windows-ai-studio.windows-ai-studio"
 vscode "oderwat.indent-rainbow"
 vscode "openai.chatgpt"
 vscode "rangav.vscode-thunder-client"
+vscode "redhat.vscode-xml"
 vscode "ritwickdey.liveserver"
+vscode "ryu1kn.partial-diff"
 vscode "stylelint.vscode-stylelint"
 vscode "tomoki1207.pdf"
 vscode "uctakeoff.vscode-counter"
 vscode "yzane.markdown-pdf"
 vscode "zainchen.json"
-go "github.com/sammcj/gollama"
-go "github.com/rapidloop/rtop"
 npm "@earendil-works/pi-coding-agent"
 npm "@playwright/cli"
 npm "agent-browser"
