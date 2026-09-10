@@ -1,10 +1,8 @@
 tap "anomalyco/tap"
-tap "ddev/ddev"
-tap "hashicorp/tap"
+tap "can1357/tap"
 tap "opencoworkai/tap", "https://github.com/OpenCoworkAI/homebrew-tap"
 tap "steipete/tap"
 tap "yakitrak/yakitrak", trusted: { formulae: ["obsidian-cli"] }
-tap "zackriya-solutions/meetily"
 # Codec library for encoding and decoding AV1 video streams
 brew "aom"
 # Cryptography and SSL/TLS Toolkit
@@ -89,6 +87,8 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 # The AI coding agent built for the terminal.
 brew "anomalyco/tap/opencode", trusted: true
+# Coding agent with the IDE wired in
+brew "can1357/tap/omp", trusted: true
 # Send and read iMessage / SMS from the terminal
 brew "steipete/tap/imsg", trusted: true
 # Fast CLI for Apple Reminders
@@ -160,6 +160,8 @@ cask "thonny"
 cask "timemachineeditor"
 # Free and open-source OpenVPN client
 cask "tunnelblick"
+# Menu bar toolkit with keep-awake, system monitor and volume mixer
+cask "vorssaint"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
@@ -173,16 +175,15 @@ mas "Horo", id: 1437226581
 mas "iMovie", id: 408981434
 mas "Integrity", id: 513610341
 mas "Microsoft To Do", id: 1274495053
-mas "Muteem", id: 6463294724
 mas "Owly", id: 882812218
 mas "Scrivener", id: 1310686187
 mas "SiteSucker", id: 442168834
 mas "Steam Link", id: 1246969117
 mas "Tailscale", id: 1475387142
+mas "Telegram", id: 747648890
 mas "TestFlight", id: 899247664
 mas "WhatsApp", id: 310633997
 mas "Windows App", id: 1295203466
-mas "WireGuard", id: 1451685025
 mas "World Clock", id: 956377119
 mas "Xcode", id: 497799835
 vscode "anthropic.claude-code"
@@ -191,6 +192,7 @@ vscode "chaojie.better-mako"
 vscode "continue.continue"
 vscode "dbaeumer.vscode-eslint"
 vscode "esbenp.prettier-vscode"
+vscode "fabric.vscode-fabric"
 vscode "github.vscode-pull-request-github"
 vscode "glenn2223.live-sass"
 vscode "google.gemini-cli-vscode-ide-companion"
@@ -203,7 +205,12 @@ vscode "ms-azuretools.vscode-azure-mcp-server"
 vscode "ms-azuretools.vscode-azureresourcegroups"
 vscode "ms-azuretools.vscode-bicep"
 vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-cosmosdb"
 vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-mssql.data-workspace-vscode"
+vscode "ms-mssql.mssql"
+vscode "ms-mssql.sql-bindings-vscode"
+vscode "ms-mssql.sql-database-projects-vscode"
 vscode "ms-ossdata.vscode-pgsql"
 vscode "ms-python.autopep8"
 vscode "ms-python.debugpy"
