@@ -7,12 +7,8 @@ tap "yakitrak/yakitrak", trusted: { formulae: ["obsidian-cli"] }
 brew "aom"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
-# Microsoft Azure CLI 2.0
-brew "azure-cli"
 # Emacs dependency management
 brew "cask"
-# Cloudflare Tunnel client (formerly Argo Tunnel)
-brew "cloudflared"
 # C library implementing the SSH2 protocol
 brew "libssh2"
 # Get a file from an HTTP, HTTPS or FTP server
@@ -73,12 +69,16 @@ brew "rclone"
 brew "rsync"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Command-line unarchiving tools supporting multiple formats
+brew "unar"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Internet file retriever
 brew "wget"
+# Generate your Xcode project from a spec file and your folder structure
+brew "xcodegen"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
 # Additional completion definitions for zsh
@@ -93,8 +93,8 @@ brew "can1357/tap/omp", trusted: true
 brew "steipete/tap/imsg", trusted: true
 # Fast CLI for Apple Reminders
 brew "steipete/tap/remindctl", trusted: true
-# Application uninstaller
-cask "appcleaner"
+# Microsoft Azure CLI 2.0
+cask "azure-cli"
 # Alternative GUI for Time Machine
 cask "backuploupe"
 # Compact TeX distribution as alternative to the full TeX Live / MacTeX
@@ -105,77 +105,42 @@ cask "cc-switch"
 cask "codex"
 # Brings the power of Copilot coding agent directly to your terminal
 cask "copilot-cli"
-# Server and cloud storage browser
-cask "cyberduck"
-# Window peeking utility app
-cask "dockdoor"
-# Per-application volume mixer, equalizer, and audio router
-cask "finetune"
-# Privacy-focused Firefox-based browser
-cask "floorp"
 cask "font-jetbrains-mono-nerd-font"
 # Open-source video transcoder
 cask "handbrake-app"
-# File archiver
-cask "keka"
-# Open-source keystroke visualiser
-cask "keycastr"
-# Audio tagger focusing on efficiency
-cask "kid3"
-# Customise mouse behavior
-cask "linearmouse"
-# Clipboard manager
-cask "maccy"
-# Markdown editor
-cask "markedit"
-# Extensible two-pane file manager
-cask "marta"
+# Jellyfin desktop client
+cask "jellyfin-media-player"
 # Minimal installer for conda
 cask "miniconda"
 # Tool to control external monitor brightness & volume
 cask "monitorcontrol"
-# Utility to move and zoom windows—on one display
-cask "moom"
-# Orchestrates virtual Ubuntu instances
-cask "multipass"
-# App to write, plan, collaborate, and get organised
-cask "notion"
 # Desktop AI agent app with sandboxed environment
 cask "opencoworkai/tap/open-cowork", trusted: true
 # AI coding agent desktop client
 cask "opencode-desktop"
-# Geographic Information System
-cask "qgis"
 # Quick Look generator for Markdown files
 cask "qlmarkdown"
 # Catalogue of hi-res music for streaming and download
 cask "qobuz"
 # Team communication and collaboration software
 cask "slack"
-# Native terminal coding agents command center
-cask "supacode"
 # Python IDE for beginners
 cask "thonny"
 # Utility to change the default backup interval of Time Machine
 cask "timemachineeditor"
-# Free and open-source OpenVPN client
-cask "tunnelblick"
 # Menu bar toolkit with keep-awake, system monitor and volume mixer
 cask "vorssaint"
 mas "AdGuard for Safari", id: 1440147259
 mas "Amphetamine", id: 937984704
 mas "Bitwarden", id: 1352778147
 mas "Bluetooth Inspector", id: 1509085044
-mas "Copilot", id: 6738511300
 mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
 mas "GarageBand", id: 682658836
 mas "Home Assistant", id: 1099568401
 mas "Horo", id: 1437226581
 mas "iMovie", id: 408981434
-mas "Integrity", id: 513610341
 mas "Microsoft To Do", id: 1274495053
-mas "Muteem", id: 6463294724
 mas "Owly", id: 882812218
 mas "Scrivener", id: 1310686187
 mas "SiteSucker", id: 442168834
@@ -190,37 +155,35 @@ mas "Xcode", id: 497799835
 vscode "anthropic.claude-code"
 vscode "astro-build.astro-vscode"
 vscode "chaojie.better-mako"
-vscode "continue.continue"
 vscode "dbaeumer.vscode-eslint"
 vscode "esbenp.prettier-vscode"
 vscode "github.vscode-pull-request-github"
 vscode "glenn2223.live-sass"
-vscode "google.gemini-cli-vscode-ide-companion"
 vscode "jakebathman.mysql-syntax"
 vscode "janisdd.vscode-edit-csv"
 vscode "mechatroner.rainbow-csv"
 vscode "mgmcdermott.vscode-language-babel"
-vscode "ms-azuretools.vscode-azure-github-copilot"
 vscode "ms-azuretools.vscode-azure-mcp-server"
 vscode "ms-azuretools.vscode-azureresourcegroups"
 vscode "ms-azuretools.vscode-bicep"
 vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-cosmosdb"
 vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-mssql.data-workspace-vscode"
+vscode "ms-mssql.mssql"
+vscode "ms-mssql.sql-bindings-vscode"
+vscode "ms-mssql.sql-database-projects-vscode"
 vscode "ms-ossdata.vscode-pgsql"
 vscode "ms-python.autopep8"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
-vscode "ms-vscode-remote.remote-ssh"
-vscode "ms-vscode-remote.remote-ssh-edit"
-vscode "ms-vscode-remote.remote-wsl"
-vscode "ms-vscode-remote.vscode-remote-extensionpack"
 vscode "ms-vscode.powershell"
-vscode "ms-vscode.remote-explorer"
 vscode "ms-windows-ai-studio.windows-ai-studio"
 vscode "oderwat.indent-rainbow"
 vscode "openai.chatgpt"
+vscode "openai.codex-audio"
 vscode "rangav.vscode-thunder-client"
 vscode "redhat.vscode-xml"
 vscode "ritwickdey.liveserver"
